@@ -2,12 +2,16 @@ macro_switch_to_ru: macro_switch_to_ru{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_to_ru";
 #binding-cells = <0>;
+quick-release;
+ignore-modifiers;
 bindings = <&sk LEFT_ALT>, <&sk LEFT_SHIFT>, <&kp N1>;
 };
 macro_switch_to_en: macro_switch_to_en{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_to_en";
 #binding-cells = <0>;
+quick-release;
+ignore-modifiers;
 bindings = <&sk LEFT_ALT>, <&sk LEFT_SHIFT>, <&kp N0>;
 };
 macro_quotes: macro_quotes{
