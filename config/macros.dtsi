@@ -26,6 +26,6 @@ switch_lang: switch_lang {
       compatible = "zmk,behavior-tap-dance";
       label = "SWITCH_LANG";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <100>;
       bindings = <&macro_switch_to_en>, <&macro_switch_to_ru>;
 };
