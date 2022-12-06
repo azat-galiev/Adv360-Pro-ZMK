@@ -21,3 +21,11 @@ macro_switch_to_en: macro_switch_to_en {
         , <&macro_release &kp LEFT_SHIFT &kp LEFT_ALT>
         ;
 };
+
+switch_lang: switch_lang {
+      compatible = "zmk,behavior-tap-dance";
+      label = "SWITCH_LANG";
+      #binding-cells = <0>;
+      tapping-term-ms = <50>;
+      bindings = <&macro_switch_to_en>, <&macro_switch_to_ru>;
+};
