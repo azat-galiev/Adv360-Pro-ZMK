@@ -29,7 +29,7 @@ fn_or_switch_to_en: fn_or_switch_to_en {
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
     bindings = <&mo 2>, <&macro_switch_to_en>;
-}
+};
 
 fn_or_switch_to_ru: fn_or_switch_to_ru {
     compatible = "zmk,behavior-hold-tap";
@@ -38,4 +38,4 @@ fn_or_switch_to_ru: fn_or_switch_to_ru {
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
     bindings = <&mo 2>, <&macro_switch_to_ru>;
-}
+};
