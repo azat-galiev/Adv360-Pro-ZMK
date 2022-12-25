@@ -20,7 +20,6 @@ CONFIG_GPIO=y
 
 # Enable SPI
 CONFIG_SPI=y
-
 CONFIG_SPI_NRFX=y
 
 # Enable writing to flash

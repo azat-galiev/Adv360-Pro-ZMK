@@ -7,15 +7,14 @@ CONFIG_SOC_SERIES_NRF52X=y
 CONFIG_SOC_NRF52840_QIAA=y
 CONFIG_BOARD_ADV360_RIGHT=y
 CONFIG_ZMK_BLE=y
-CONFIG_ZMK_SPLIT=y
 
+CONFIG_ZMK_SPLIT=y
 
 # Enable MPU
 CONFIG_ARM_MPU=y
 
 # enable GPIO
 CONFIG_GPIO=y
-
 
 
 # Enable SPI
@@ -59,8 +58,6 @@ CONFIG_USB_DEVICE_MANUFACTURER="Kinesis Corporation"
 # Turn on logging, and set ZMK logging to debug output
 CONFIG_LOG=y
 CONFIG_ZMK_USB_LOGGING=y
-
-
 
 
 
