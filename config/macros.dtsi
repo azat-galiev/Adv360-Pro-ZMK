@@ -21,3 +21,21 @@ macro_switch_to_en: macro_switch_to_en {
         , <&macro_release &kp LEFT_SHIFT &kp LEFT_ALT>
         ;
 };
+
+fn_or_switch_to_en: fn_or_switch_to_en {
+    compatible = "zmk,behavior-hold-tap";
+    label = "fn_or_switch_to_en";
+    #binding-cells = <0>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    bindings = <&mo 2>, <&macro_switch_to_en>;
+}
+
+fn_or_switch_to_ru: fn_or_switch_to_ru {
+    compatible = "zmk,behavior-hold-tap";
+    label = "fn_or_switch_to_ru";
+    #binding-cells = <0>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    bindings = <&mo 2>, <&macro_switch_to_ru>;
+}
