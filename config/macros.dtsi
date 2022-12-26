@@ -41,3 +41,12 @@ kp_or_switch_lang: kp_or_switch_lang {
     tapping-term-ms = <200>;
     bindings = <&kp>, <&macro_switch_lang>;
 };
+
+mo_or_switch_lang: mo_or_switch_lang {
+    compatible = "zmk,behavior-hold-tap";
+    label = "mo_or_switch_lang";
+    #binding-cells = <2>;
+    flavor = "hold-preferred";
+    tapping-term-ms = <200>;
+    bindings = <&mo>, <&macro_switch_lang>;
+};
